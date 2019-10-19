@@ -215,10 +215,15 @@ input, select, textarea {
 
 		.content5 {
 			display: grid;
-				grid-template-columns: 1fr 1fr 1fr ;
+				
 				grid-row-gap: 24px;
 
 		}
+		@media only screen and (min-width: 760px) {
+			.content5 {
+				grid-template-columns: 1fr 1fr 1fr ;	
+			}
+		  }
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
